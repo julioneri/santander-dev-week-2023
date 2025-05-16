@@ -1,5 +1,5 @@
 # Santander Dev Week 2023
-Java RESTful API criada para a Santander Dev Week.
+Projeto desenvolvido como parte da Santander Dev Week 2023, promovida pela DIO. Nesta jornada, tive a oportunidade de colocar em prática conceitos modernos do ecossistema Java, construindo uma API RESTful completa.
 
 ## Diagrama de Classes
 
@@ -41,3 +41,6 @@ classDiagram
     User "1" *-- "1" Card
     User "1" *-- "N" News
 ```
+
+## Observações Finais
+Este projeto foi reproduzido com fins educacionais, acompanhando o conteúdo da DIO.
