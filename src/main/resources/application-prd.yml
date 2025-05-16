@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://caboose.proxy.rlwy.net:44204/${PGDATABASE}
+    url: jdbc:postgresql://caboose.proxy.rlwy.net:44204/${PGDATABASE}?sslmode=require
     username: ${PGUSER}
     password: ${PGPASSWORD}
   jpa:
